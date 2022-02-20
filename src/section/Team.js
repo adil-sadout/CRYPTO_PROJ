@@ -4,7 +4,7 @@ function Team() {
   return (
     <div className='grid row text-light justify-content-center text-center py-5'>
 
-      <p id='Team' className='display-3 '>MEET THE TEAM</p>
+      <p id='team' className='display-3 '>MEET THE TEAM</p>
 
       <div className="card col-sm-3 col-10 bg-dark pt-2 m-3">
         <img src="./assets/1.jpg" className="card-img-top" alt="..."/>

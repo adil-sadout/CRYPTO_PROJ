@@ -5,7 +5,7 @@ import { Accordion } from 'react-bootstrap-accordion'
 function FAQ() {
   return (
     <div className='p-5 my-5 container text-center bg-dark'>
-        <p className='display-1 text-light pt-5'>FAQ</p>
+        <p id='faq' className='display-1 text-light pt-5'>FAQ</p>
         <div className='px-sm-5 pb-5'>
           <Accordion title="Where can I purchase an NFT?" children="TBD"/>
           <Accordion title="How many NFTs will be available?" children={<p><span className='bold'>The Brokers</span> is a collection consisting of 250 NFTs. This is the 1st out of our multiple phases on our Roadmap.</p>} />
