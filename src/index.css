@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "bicubik";
+  src: url("../public/assets/bicubik.otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  background-color: #290336;
+  height: 100vh ;
+  font-family: bicubik;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+color:#FFC75F;
+}
+
+
+/*LANDING SECTION CSS*/
+
+
+.landingHeight{
+  min-height: 550px;
+}
+
+.landingbg{
+  background-image: url("../public/assets/background1.jpg");
+  background-position: center;
+}
+
+
+
+/*ABOUT SECTION CSS*/
+
+
+
+
+/*ROADMAP SECTION CSS*/
+
+
+
+
+/*TEAM SECTION CSS*/
+
+
+
+
+/*FAQ SECTION CSS*/
+
+.accordionhover:active{
+  background-color: gold;
 }
